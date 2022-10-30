@@ -7,9 +7,8 @@ body {
 }
 
 .centering2 {
-  max-width: 33%;
-  height: auto;
-  object-fit: contain;
+  max-width: 100%;
+  min-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -19,8 +18,14 @@ body {
 
 .centering3 {
   max-width: 33%;
+  min-width: 33%;
   margin-top: 2%;
   margin-bottom: 1%;
+}
+
+.centering4 {
+  max-width: 60%;
+  min-width: 60%;
 }
 
 .video-container {
@@ -54,11 +59,13 @@ body {
 }
 .inline-block {
    display: inline-block;
-   width: 7%;
-   margin-left: 4%; 
-   margin-right: 4%;
-   max-width: 50%;
+   width: 10%;
+   margin-left: 3.5%; 
+   margin-right: 3.5%;
+   height: auto;
+
 }
+
 .inline-block2 {
    display: inline-block;
    text-align: center;
